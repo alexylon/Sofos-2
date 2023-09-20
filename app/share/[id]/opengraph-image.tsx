@@ -13,13 +13,13 @@ export const size = {
 
 export const contentType = 'image/png'
 
-const interRegular = fetch(
+/* const interRegular = fetch(
   new URL('../../../assets/fonts/Inter-Regular.woff', import.meta.url)
 ).then(res => res.arrayBuffer())
 
 const interBold = fetch(
   new URL('../../../assets/fonts/Inter-Bold.woff', import.meta.url)
-).then(res => res.arrayBuffer())
+).then(res => res.arrayBuffer()) */
 
 interface ImageProps {
   params: {
@@ -96,7 +96,7 @@ export default async function Image({ params }: ImageProps) {
           <div tw="text-[1.8rem] ml-auto text-[#9b9ba4]">chat.vercel.ai</div>
         </div>
       </div>
-    ),
+    )/*,
     {
       ...size,
       fonts: [
@@ -113,6 +113,6 @@ export default async function Image({ params }: ImageProps) {
           weight: 700
         }
       ]
-    }
+    }*/
   )
 }
