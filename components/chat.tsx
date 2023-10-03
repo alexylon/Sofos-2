@@ -50,8 +50,16 @@ export function Chat({ id, initialMessages, className }: ChatProps) {
   return (
     <>
       <div className={cn('pb-[150px] pt-4 md:pt-10', className)}>
-            <ChatList messages={messages} />
-            <ChatScrollAnchor trackVisibility={isLoading} />
+          {messages.length ? (
+              <>
+                  <ChatList messages={messages} />
+                  <ChatScrollAnchor trackVisibility={isLoading} />
+              </>
+          ) : (
+              <h1 className="mx-auto mb-10 flex grow items-center justify-center gap-2 text-center text-4xl font-semibold text-gray-200 dark:text-gray-600 sm:mb-16">
+                  Sofos
+              </h1>
+          )}
       </div>
       <ChatPanel
         id={id}
