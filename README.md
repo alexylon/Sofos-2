@@ -1,10 +1,7 @@
-<a href="https://chat.vercel.ai/">
-  <img alt="Next.js 13 and app template Router-ready AI chatbot." src="https://chat.vercel.ai/opengraph-image.png">
-  <h1 align="center">Sofos-2 AI Chatbot</h1>
-</a>
+<h1 align="center">Sofos-2 AI Chatbot</h1>
 
 <p align="center">
-  An open-source AI chatbot app built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV, based on the Vercel AI Chatbot template.
+  An open-source AI chatbot app built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV, based on the <a href=“https://chat.vercel.ai/“>Vercel AI Chatbot template.</a>
 </p>
 
 <p align="center">
@@ -66,4 +63,4 @@ npm install
 npm run dev
 ```
 
-Your app template should now be running on [localhost:3000](http://localhost:3000/).
+The app should now be running on [localhost:3000](http://localhost:3000/).
