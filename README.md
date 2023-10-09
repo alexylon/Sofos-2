@@ -1,7 +1,7 @@
 <h1 align="center">Sofos-2 AI Chatbot</h1>
 
 <p align="center">
-  An open-source AI chatbot app built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV, based on the <a href="https://chat.vercel.ai/">Vercel AI Chatbot template.</a>
+  An open-source AI chatbot app built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV, based on the <a href="https://chat.vercel.ai/" target="_blank">Vercel AI Chatbot template.</a>
 </p>
 
 <p align="center">
